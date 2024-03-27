@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Martel", serif;
+}
+
+body {
+    background: linear-gradient(to right ,rgba(0,0,0,0.8) 20%,rgba(255,255,255,0.2)),url('img/back.jpg');
+    background-size: cover;
+}
+
+nav{
+    background: linear-gradient(to right ,rgba(0,0,0,0.8) 20%,rgba(255,255,255,0.2));
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffd700;
+}
+
+.content {
+    padding: 20px;
+}
+
+main{
+    max-width: 80vw;
+}
+
+#sloka-container {
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    margin: 50px auto;
+    
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #f8f8f8;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+}
+
+button {
+    background-color: #007bff;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.arth{
+    text-align: center;
+    width: 700px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 1rem;
+    color: white;
+}
+
+.arth #sloka{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.arth #translation{
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.input1 input,.input2 input{
+    margin: 0px 10px 10px 10px;
+    width: 80%;
+}
+
+.input1 label,.input2 label{
+    font-size: 30px;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.logo img{
+        margin: 10px;
+        width: 30px;
+        height: 30px;
+}
+
+footer{
+    margin-top: 22%;
+    background: linear-gradient(to right ,rgba(0,0,0,0.8) 20%,rgba(255,255,255,0.2));
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.foot-container {
+  max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contener h3 {
+    margin-bottom: 10px;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 90px;
+    background-color: transparent;
+    max-height: 100%;
+    max-width: 80%;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#chapter-container {
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    margin: 50px auto;
+    
+}
+
+.chapter{
+    font-size: 20px;
+}
+

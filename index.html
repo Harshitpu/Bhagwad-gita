@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagavad Gita Sloka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="img/hinduism.png" alt=""><h1>||श्रीमद्भगवद्गीता||</h1><img src="img/hinduism.png" alt="">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="sloka-container">
+      <div class="in">
+        <div class="input1">
+            <label for="chapter">||अध्याय||</label>
+            <input type="text" id="chapter" >
+        </div>
+      
+        <div class="input2">
+              <label for="verse">||श्लोक||</label>
+              <input type="text" id="verse">
+        </div>
+      </div>
+       <button onclick="fetchSloka()">See Sloka</button>
+       
+       <div class="arth">
+        <p id="sloka"></p>
+        <p id="translation"></p>
+       </div>
+    </div>
+
+    <footer>
+        <div class="foot-container">
+            <h3>Designed & Developed By Harshit</h3>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
